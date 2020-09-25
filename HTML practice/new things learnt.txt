@@ -1,0 +1,158 @@
+root: {
+to apply css variable to make it global,
+ny deafult it is for only that section.
+}
+
+[attribute="value"] {
+
+}
+
+heirarchy : 
+inline style,
+id, 
+class,
+selector.
+
+--variable_name: value;
+accessed by :
+background: var(--variable_name);
+
+box-shadow: h-offset v-offset blur spread color
+
+background: linear-gradient(degress, color1, color2,......);
+
+background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,       0 start and turns to red at 40 px from
+      red 40px,         start of gradient.
+      black 40px,
+      black 80px
+    );
+
+transform: scale(how many times to scale);
+
+transform on hover
+
+transform: skewX(24deg);
+
+transform: skewY(24deg);
+
+transform: rotate(24deg);
+
+.class ::before {
+content: "";
+}
+
+.class ::after {
+content: "";
+}
+
+#rect {
+    animation-name: rainbow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite or 1,2,3.....
+    animation-timing-function: ease, ease-out, ease-in, linear
+    animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+                                             x1     y1    x2    y2
+                                             p0     p1    p2    p3
+                                            (0,0)             (1,1)
+  }
+
+  @keyframes rainbow {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+animation to hover
+
+for movement use position relative and and set top,left,right
+bottom.
+
+we can use opacity to fade the element
+
+we can change the animation at different rates by changing
+5 in @keyframes or by changing animation duration
+
+<fieldset>         
+                 for encapsulating multiple radio buttons
+</fieldset> 
+
+<legend>
+                  for description of grouping
+</legend>
+
+input type="date"
+
+<time datetime="2016-02-13">Wednesday 15<sup>th</sup></time>
+
+.sr-only {
+  position: absolute;
+  left: -10000px;          for screen readers to display table
+  width: 1px;              instead of a chart for visually  
+  height: 1px;             impaired
+  top: auto;
+  overflow: hidden;
+}
+
+accesskey="any key on keyboard"     this is specifically good
+                                    keyboard-only users
+
+tabindex="positve,negative or zero"
+
+vw (viewport width):
+10vw would be 10% of the viewport's width.
+
+vh (viewport height): 
+3vh would be 3% of the viewport's height.
+
+vmin (viewport minimum): 
+70vmin would be 70% of the viewport's smaller dimension 
+(height or width).
+
+vmax (viewport maximum): 
+100vmax would be 100% of the viewport's bigger dimension 
+(height or width).
+
+flex-direction
+
+justify-content
+
+align-items
+
+flex-wrap     wraps and sends other items to next row or column
+
+flex-shrink   accepts numbers box 1 has value 1 and box 2 has
+              value 2 so box 2 will shrink twice
+
+flex-grow
+
+flex-basis    The flex-basis property specifies the initial size
+              of the item before CSS makes adjustments with 
+              flex-shrink or flex-grow.
+
+flex: flex-grow flex-shrink flex-basis
+
+order   takes numbers to change order in which flex items
+        appear in flex container.
+
+align-self  to apply properties to individual flex item
+
+you can use a period (.) to designate an empty cell in 
+the grid.
+
+repeat(auto-fill, minmax(60px, 1fr));      allows you to
+ automatically insert as many rows or columns of your desired 
+ size as possible depending on the size of the container. 
+
+ auto-fit collapses those empty rows or columns and stretches 
+ your items to fit the size of the container.
+
+

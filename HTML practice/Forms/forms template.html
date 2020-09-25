@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Form Template</title>
+        <link rel="stylesheet" href="form template.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1 >Survey Form</h1>
+            <h4 >Let us know how we can improve our services for you!!!</h4>
+        </header>
+        <form>
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name" min="8" max="25" required>
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input id="email" type="text" name="email" required>
+            <br>
+            <br>
+            <label for="age">Age: </label>
+            <input id="age" type="number" name="age" min="10" max="80" required>
+            <br>
+            <br>
+            <label for="current role">Which one describes your current role? </label>
+            <select name="current role" id="current role" required>
+                <option value="student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Employee">Employee</option>
+                <option value="jobless">Jobless</option>
+                <option value="house wife">House Wife</option> 
+            </select>
+            <br>
+            <br>
+            <p>How likely is that you would recommend our company to a friend?</p>
+            <input id="recommendation" name="recommendation" type="radio" value="definitely" required>
+            <label for="definitely">Definitely</label>
+            <br>
+            <input id="recommendation" name="recommendation" type="radio" value="Maybe" required>
+            <label for="maybe">Maybe</label>
+            <br>
+            <input id="recommendation" name="recommendation" type="radio" value="not sure" required>
+            <label for="not sure">Not sure</label>
+            <br>
+            <br>
+            <label for="liking">What do you like most in our company?</label>
+            <input list="like" id="liking" required>
+            <datalist id="like">
+                <option value="free content"></option>
+                <option value="quality content"></option>
+                <option value="good customer care"></option>
+            </datalist>
+            <br>
+            <br>
+            <p>Things that should be improved in the future.</p>
+            <label for="improvement">Front-end projects</label>
+            <input id="improvement" type="checkbox" name="improvement" value="Front-end projects">
+            <br>
+            <br>
+            <label for="improve">Back-end projects</label>
+            <input id="improve" type="checkbox" name="improvement" value="Back-end projects">
+            <br>
+            <br>
+            <label for="improved">Data visualization</label>
+            <input id="improved" type="checkbox" name="improvement" value="Data visualization">
+            <br>
+            <br>
+            <p>Any suggestions for improvement?</p>
+            <textarea rows="10" cols="60" name="comments"></textarea>
+        </form>
+    </body>
+</html>

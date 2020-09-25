@@ -1,0 +1,18 @@
+TO CENTER THE WEBPAGE: 
+
+width: to any percentage or px.
+margin: auto
+
+we can just declare the container as grid and then in each 
+section sepaartely we can specify it as grid and specify 
+rows and columns for that sub-grid.
+
+make image responsive 
+
+max-width: 100%;
+height: auto;
+
+
+
+
+

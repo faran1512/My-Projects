@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+.sec_1, .sec_2, .sec_3, .sec_4 {
+    width: 100%;
+    height: 609px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.sec_1 {
+    background-image: url('NYC 1.jpg');
+}
+
+.sec_2 {
+    background-image: url('NYC 2.jpg');   
+}
+ 
+.sec_3 {
+    background-image: url('NYC 3.jpg');
+}
+
+.sec_4 {
+    background-image: url('NYC 4.jpg');
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 550px;
+    padding: 20px 50px;
+    border: 1px solid rgba(12, 35, 89, 0.85);
+    background-color: rgba(12,35, 89, 0.85);
+    
+}
+
+.txt_1 {
+    background-color: rgb(244, 244, 244);
+    color: black;
+}
+
+.txt_2 {
+    background-color: rgb(40, 46, 52);
+    color: white;
+}
+
+.txt_3 {
+    background-color: rgb(40, 46, 52);
+    color: white;
+}
+
+.txt_1, .txt_2, .txt_3 {
+    height: 300px;
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.5;
+}
+
+.h_1, .h_2, .h_3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 45px;
+}

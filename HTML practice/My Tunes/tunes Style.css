@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.06fr 1.1fr 2.2fr 2.4fr 0.84fr 0.8fr 0.5fr 0.1fr;
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    grid-column: 1 / span 4;
+    background-color: rgb(51, 51, 51);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.showcase {
+    grid-column: 1 / span 4;
+    background-image: url('showcase.jpeg');
+    background-size: cover;
+    padding-top: 160px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.showcase h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.showcase h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.showcase p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mockup1 {
+    grid-column: 1 / span 4;
+    background-color: rgb(37, 37, 41); 
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 15px;
+}
+
+.mockup1 h1 {
+    font-size: 35px;
+}
+
+.mockup1 h1, .mockup1 h2, .mockup1 h5 {
+    color: white;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mockup1 h2 {
+    font-size: 30px;
+}
+
+.mockup1 h5 {
+    font-size: 22px;
+}
+
+.mockup1 a {
+    border: 1px solid rgb(211, 7, 27);
+    background-color: rgb(211, 7, 27);
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+}
+
+.mockup1 p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mockup2 {
+    grid-column: 1 / span 4;
+    background-color: rgb(244, 244, 244);
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mockup2 img{
+    width: 90%;
+}
+
+.mockup2 h2, .mockup2 p {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mockup2 h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.mockup2 p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.mockup2 a {
+    border: 1px solid rgb(20, 63, 133);
+    background-color: rgb(20, 63, 133);
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 125px;
+}
+
+.stars {
+    grid-column: 1 / span 4;
+    background-image: url("stars.jpeg");
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 80px;
+}
+
+.stars h2, .stars p {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+}
+
+.stars h2 {
+    font-size: 30px;
+}
+
+.stars p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.cards {
+    grid-column: 1 / span 2;
+    background-color: rgb(244, 244, 244);
+    padding-top: 30px;
+    height: auto;
+    max-width: 100%;
+}
+
+.cards-des {
+    grid-column: 3 / span 2;
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 70px;
+    background-color: rgb(244, 244, 244);
+}
+
+.cards-des h2 {
+    font-size: 25px;
+}
+
+.cards-des p {
+    font-size: 16px;
+}
+
+.cards-des h5 {
+    font-size: 18px;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    padding-bottom: 20px;
+}
+
+.shop-n-learn a, .orange-store a, .education-n-business a, .about a {
+    color: white;
+}
+
+.shop-n-learn p, .orange-store p, .education-n-business p, .about p {
+    color: white;
+    font-size: 20px;
+
+}
+
+li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.orange-store, .education-n-business, .about, .shop-n-learn {
+    background-color: rgb(37, 37, 41);
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foot {
+    grid-column: 1 / span 4;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .orange-store, .education-n-business, .about, .shop-n-learn {
+        display: none;
+        visibility: hidden;
+    }
+    
+   .container {
+        display: grid;
+        grid-template-rows: 0.06fr 1.1fr 2.2fr 2.4fr 0.84fr 0.8fr 1fr 0.5fr 0.1fr;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 3500px;
+    }
+
+    .cards {
+        background-image: url("cards.png");
+        grid-row: 7 / span 1;
+    }
+
+    .nav li {
+        display: inline-block;
+        list-style: none;
+        padding: 0 7px;
+    }
+}

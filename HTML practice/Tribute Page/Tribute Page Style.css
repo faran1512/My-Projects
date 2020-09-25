@@ -1,0 +1,24 @@
+div {
+    text-align: center;
+}
+
+.name {
+    color: blue;
+}
+
+.formula {
+    color: green;
+}
+
+.link {
+    color: purple;
+}
+
+.a_color {
+    color: blue;
+}
+
+body {
+    background-color: rgb(220, 220, 230);
+    font-family: Helvetica;
+}

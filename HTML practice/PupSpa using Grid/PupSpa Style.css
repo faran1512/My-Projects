@@ -1,0 +1,78 @@
+.container {
+    display: grid;
+    height: 1000px;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-rows: 2fr 0.5fr 2fr 1fr 0.5fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 25px 10px;
+}
+
+.A {
+    background-image: url("header.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    grid-column: 1 / span 6;
+}
+
+.B {   
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    grid-column: 1 / span 6;
+}
+
+.C {
+    grid-column: 1 / span 2;
+    background-color: rgb(47, 47, 47);
+}
+
+.D {
+    grid-column: 3 / span 2;
+    background-color: rgb(47, 47, 47);
+}
+
+.E {
+    grid-column: 5 / span 2;
+    background-color: rgb(47, 47, 47);
+}
+
+.F {
+    grid-column: 1 / span 3;
+    background-color: rgb(240, 240, 240);
+}
+
+.G {
+    grid-column: 4 / span 3;
+    background-color: rgb(240, 240, 240);
+}
+
+.H {
+    grid-column: 1 / span 6;
+    background-color: rgb(220, 99, 99);
+}
+
+.address, .Call-us, .hours {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonials {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    word-spacing: 1.5;
+    padding: 10px;
+    color: rgb(220, 99, 99);
+}
+
+.foot {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}

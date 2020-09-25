@@ -1,0 +1,115 @@
+.container {
+    display: grid;
+    height: 1800px;
+    width: 100%;
+    grid-template-rows: 1.5fr 0.7fr 1.7fr 0.7fr 1.1fr 0.3fr;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.A {
+    grid-column: 1 / span 6;
+    background-image: url("developer screen.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-top: 100px;
+    opacity: 0.8;
+}
+
+.B {
+    grid-column: 1 / span 6;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    color: rgb(51, 51, 51);
+    padding: 30px 100px;
+}
+
+.C {
+    grid-column: 1 / span 2;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.D {
+    grid-column: 3 / span 2;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.E {
+    grid-column: 5 / span 2;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.F {
+    grid-column: 1 / span 6;    
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    color: rgb(51, 51, 51);
+    padding: 30px 100px;
+}
+
+.G {
+    grid-column: 1 / span 3;
+    text-align: center;
+    background-color: rgb(38, 144, 212);
+    padding: 40px;
+}
+
+.H {
+    grid-column: 4 / span 3;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    padding: 40px;
+}
+
+.I {
+    grid-column: 1 / span 6;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.button{
+    border: 1px solid rgb(53, 53, 55);
+    background-color: rgb(53, 53, 55);
+    padding: 15px;
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+.button:hover {
+    background-color: green;
+    text-decoration: none;
+}
+
+.button:link {
+    text-decoration: none;
+}
+
+.head1 {
+    font-size: 40px;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+    font-size: 20px;
+}
+
+.head2, .head3, .head4, .head5, .head6, .head7, .head8 {
+    font-size: 30px;
+}
+
+.text9 {
+    color: white;
+    font-size: 20px;
+}
+
+.as:link {
+    color: blue;
+    text-decoration: none; 
+}
+
+

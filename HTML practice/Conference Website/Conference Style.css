@@ -1,0 +1,136 @@
+.container {
+	display: grid;
+	height: 1200px;
+	width: 100%;
+	margin: auto;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 0.2fr 1.4fr 2fr 0.4fr;
+}
+
+.heading {
+	grid-column: 1 / span 3;
+	text-align: left;
+	padding-left: 250px;
+	background-color: rgb(41, 63, 80);
+	font-family: Tahoma;
+}
+
+.navigation {
+	grid-column: 4 / span 3;
+	background-color: rgb(41, 63, 80);
+	text-align: left;
+}
+
+.top {
+	grid-column: 1 / span 6;
+	background-color: rgb(41, 63, 80);
+	text-align: center;
+	padding: 45px 100px;
+}
+
+.speakers {
+	grid-column: 1 / span 2;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.schedule {
+	grid-column: 3 / span 2;
+	text-align: center;
+	padding-top: 30px;
+}	
+
+.venue {
+	grid-column: 5 / span 2;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.copyright {
+	grid-column: 1 / span 3;
+	text-align: center;
+	padding-top: 15px;
+	background-color: rgb(41, 63, 80);
+}
+
+.foot-links {
+	grid-column: 4 / span 6;
+	text-align: center;
+	background-color: rgb(41, 63, 80);
+}
+
+.heading a {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation .date {
+	text-align: left;
+	font-size: 17px;
+	color: rgb(69, 127, 128);
+	padding-left: 50px;
+}
+
+.navigation li {
+	display: inline-block;
+	font-size: 13px;
+	list-style: none;
+	padding: 10px;
+}
+
+.navigation a {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top-head {
+	font-size: 35px;
+	color: rgb(69, 127, 128);
+}
+
+.top-des {
+	font-size: 25px;
+	padding-bottom: 35px;
+	color: white;
+}
+
+.top-button {
+	border: 1px solid white;
+	padding: 25px;
+	border-radius: 10px;
+	color: white;
+}
+
+.speaker-head, .schedule-head, .venue-head {
+	color: rgb(188, 178, 185);
+}
+
+.speaker-link, .schedule-link, .venue-link{
+	color: rgb(188, 218, 255);
+}
+
+.speaker-des, .schedule-des, .venue-des {
+	color: rgb(136, 150, 182);
+}
+
+.foot-links li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	font-size: 13px;
+	list-style: none;
+}
+
+.foot-links a {
+	color: white;
+}
+
+
+
+
+
+
