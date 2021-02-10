@@ -17,6 +17,10 @@ body {
     grid-gap: 20px;
 }
 
+.mobile-container {
+    display: none;
+}
+
 .navigation ul {
     list-style: none;
     display: grid;
@@ -184,8 +188,28 @@ button {
         grid-template-columns: 1fr;
     }
 
+    .navigation {
+        display: none;
+    }
+
     body {
-        width:50%;
         margin: auto;
     }
+    .mobile-container {
+        width: 100%;
+        height: 70px;
+        display: block;
+    } 
+    .top-nav {
+        overflow: hidden;
+        position: relative;
+      }
+     
+    .top-nav a {
+        display: block;
+    }  
+
+    .top-nav #navlinks {
+        display: none;
+    }  
 }

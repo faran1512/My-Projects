@@ -3,8 +3,23 @@
   <head>
     <title>Restaurant</title>
     <link href="Restaurant Website style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+      <div class="mobile-container">
+          <div class="top-nav">
+              <div id="navlinks">
+                  <a href="#">Tacos</a>
+                  <a href="#">Burgers</a>
+                  <a href="#">Drinks</a>
+                  <a href="#">Desserts</a>
+                  <a href="#">Reservations</a>
+              </div>
+              <a href="#" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+          </div>
+      </div>
     <div class="container">
         <div class="navigation">
             <ul>
@@ -74,5 +89,16 @@
             </div>
         </div>    
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navlinks");
+            if(x.style.display === "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
   </body>
 </html>
